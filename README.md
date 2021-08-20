@@ -97,7 +97,11 @@ As has been established, this refactoring does not add new functionality to the 
 
 Regarding the numerical results, as it can be seen in Figure 1 and 2, there is no meaningful difference between the results using the original code and the refactored version. They only differ in the precision fraction.
 
+![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/2017_Original_Results.png)
+**Figure 2.**  Yearly Return for 12 different stocks for the 2018 year
 
+![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/2018_Original_Results.png)
+**Figure 1.**  Yearly Return for 12 different stocks for the 2017 year
 
 ## Summary
 
