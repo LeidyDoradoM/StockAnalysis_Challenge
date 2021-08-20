@@ -90,19 +90,27 @@ Next i
 
 As has been established, this refactoring does not add new functionality to the initial code, but it improves its performance by reducing the running time. Therefore, the numerical results for both approaches are still the same, although, the running time differs.  Table 1. shows the time of computation for both years 2017 and 2018 and for both approaches.
 
-| Original Version      | Refactored Version     |
-| :------------- | :----------: |
-| | ![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/VBA_Challenge_2017.png)   |
-| You Can Also   | ![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/VBA_Challenge_2018.png)  |
+|    Original Version   | Refactored Version     |
+| :-------------        | :----------: |
+| ![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/Original_2017_Time.png)| ![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/VBA_Challenge_2017.png)   |
+| ![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/Original_2018_Time.png)   | ![](https://raw.githubusercontent.com/LeidyDoradoM/StockAnalysis_Challenge/main/Resources/VBA_Challenge_2018.png)  |
 
-Regarding the numerical results, as it can be seen in Figure 1 and 2, there is no difference between the results using the original code and the refactored version.
+Regarding the numerical results, as it can be seen in Figure 1 and 2, there is no meaningful difference between the results using the original code and the refactored version. They only differ in the precision fraction.
+
+
 
 ## Summary
 
-* What are the advantages or disadvantages of refactoring code?
-Advantages: -More efficient in the running time
-             -Less lines of coding
-Disadvantages: - The logic of coding implies the use of arrays, which can increase the complexity of coding process. Therefore is more dense and difficult to follow.
+* This project presents one way to make a refactored version of a given code in VBA, with the purpose of improving the running time of an analysis of stocks. As any change that is introduced to a given code, there are advantages and disavantages: 
+    
+    **Advantages:**
+    1. More efficient in the running time so we can perform an analysis of thousands of stocks without affecting much the time of getting the results.
+    2. Some times the refactoring process can add new functionalities to the initial code.  Or it can made the code more efficient in terms of the length of lines of code or its complexity.
+
+    **Disadvantages:**
+    1. Some times the refactoring process requieres the use of variables such as arrays, or functions, methods that increases at the level of complexity of the logical process, making difficult to follow the logic of the code, especially for some one new with the code.
 
 * How do these pros and cons apply to refactoring the original VBS script?
+
+    Definitely the refactored code is faster than the original one, so this is one of the advantages of the refactoring the VBS script. And in the process, the use of arrays was needed, so the complexity of the logic was incresed.
 
